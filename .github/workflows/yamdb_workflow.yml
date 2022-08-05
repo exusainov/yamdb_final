@@ -61,7 +61,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: exusainov/api_yamdb:v1.07.2022
+          tags: exusainov/api_yamdb:latest
 
   deploy:
     runs-on: ubuntu-latest
