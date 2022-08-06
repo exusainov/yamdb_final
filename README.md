@@ -96,7 +96,7 @@ docker-compose exec web python manage.py collectstatic --no-input
 
 # Технологии
 ​
-Python3, Django, HTTP, Django Rest Framework, PostgreSQL, Docker
+Python3, Django, HTTP, Django Rest Framework, PostgreSQL, Docker, YandexCloud
 ​
 
 ​
