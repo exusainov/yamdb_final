@@ -105,3 +105,5 @@ Python3, Django, HTTP, Django Rest Framework, PostgreSQL, Docker
 ​
 
 ![example event parameter](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+
+![Build Status](https://github.com/exusainov/yamdb_final/workflows/Django-app%workflow/badge.svg)](https://github.com/exusainov/yamdb_final/actions/workflows/yamdb_workflow.yml)
