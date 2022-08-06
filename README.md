@@ -104,4 +104,4 @@ Python3, Django, HTTP, Django Rest Framework, PostgreSQL, Docker
 - Хусаинов Евгений Маратович (Exusainov@yandex.com)
 ​
 
-![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
+![example branch parameter](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg)
