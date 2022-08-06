@@ -1,5 +1,5 @@
 # INFRA_SP2
-
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 
 # Техническая документация проекта INFRA_SP2
@@ -103,5 +103,3 @@ Python3, Django, HTTP, Django Rest Framework, PostgreSQL, Docker
 ​
 - Хусаинов Евгений Маратович (Exusainov@yandex.com)
 ​
-
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
