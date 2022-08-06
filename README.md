@@ -1,8 +1,9 @@
-# INFRA_SP2
+# yamdb_final
 ![example branch parameter](https://github.com/exusainov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)
+
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 
-# Техническая документация проекта INFRA_SP2
+# Техническая документация проекта yamdb_final
 Документация API YaMDb доступна по адресу: http://127.0.0.1:8000/redoc/
 
 ​
@@ -11,9 +12,9 @@
 Клонировать репозиторий и перейти в него в командной строке:
 ​
 ```
-git clone git@github.com:exusainov/infra_sp2.git
+git clone git@github.com:exusainov/yamdb_final.git
 ​
-cd INFRA_SP2
+cd yamdb_final
 ```
 ​
 Cоздать и активировать виртуальное окружение:
