@@ -1,5 +1,5 @@
 # INFRA_SP2
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+![example branch parameter](https://github.com/exusainov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 
 # Техническая документация проекта INFRA_SP2
