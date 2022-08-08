@@ -102,4 +102,4 @@ Python3, Django, HTTP, Django Rest Framework, PostgreSQL, Docker
 # Авторы
 ​
 - Хусаинов Евгений Маратович (Exusainov@yandex.com)
-​
+​- IP Adree 84.252.142.211
