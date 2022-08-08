@@ -1,19 +1,20 @@
-# .github/workflows/**main.yml**
 name: Django-app workflow
 
 on: [push]
 
 jobs:
   tests:
+    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9"]
 
     steps:
+    - run: echo "Deploying to production server on branch $GITHUB_REF"
     - uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v2
-      with:
-        python-version: 3.7
-
     - name: Install dependencies
       run: | 
         # обновление pip
@@ -21,8 +22,9 @@ jobs:
         # установка flake8 и его плагинов
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         # установка зависимостей
-        pip install -r api_yamdb/requirements.txt 
-        pytest
+        pip install -r api_yamdb/requirements.txt
+        pytest 
+
     - name: Test with flake8 and django tests
       run: |
         # запуск проверки проекта по flake8
