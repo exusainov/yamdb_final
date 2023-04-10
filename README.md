@@ -101,5 +101,4 @@ Python3, Django, HTTP, Django Rest Framework, PostgreSQL, Docker, YandexCloud
 
 ​
 # Авторы
-​
 - Хусаинов Евгений Маратович (Exusainov@yandex.com)
