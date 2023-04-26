@@ -12,7 +12,7 @@ from .views import (
     register_user_send_code,
 )
 
-app_name = "api"
+app_name = "api" #
 
 router_v1 = routers.DefaultRouter()
 router_v1.register(r"titles", TitleViewSet, basename="titles")
