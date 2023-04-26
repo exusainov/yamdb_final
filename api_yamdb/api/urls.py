@@ -15,7 +15,7 @@ from .views import (
 app_name = "api"
 
 router_v1 = routers.DefaultRouter()
-router_v1.register(r"titles", TitleViewSet, basename="titles")
+router_v1.register(r"titles", TitleViewSet, basename="titles") # test
 router_v1.register(r"categories", CaregoryViewSet, basename="categories")
 router_v1.register(r"genres", GenreViewSet, basename="genres")
 router_v1.register(
